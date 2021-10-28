@@ -4,7 +4,6 @@
   padding: 0;
   width: 100%;
   height: 100%;
-  font-size: 24px;
 }
 body {
   font-family: 'Roboto Mono', monospace;
@@ -13,21 +12,22 @@ body {
   margin: auto;
   background: rgb(247, 135, 94);
   background: linear-gradient(158deg, rgba(247, 135, 94, 1) 0%, rgba(183, 204, 210, 1) 100%, rgba(9, 9, 121, 1) 100%);
+  background-repeat: no-repeat;
 }
 .header {
   text-align: center;
   height: 10%;
-  margin-top: 20px;
+  margin-top: 3rem;
 }
 .main {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 2rem;
   height: 7%;
   align-items: center;
 }
-#guess {
+#input {
   width: 20%;
   min-width: 150px;
   outline: none;
@@ -35,8 +35,8 @@ body {
   border-top-left-radius: 20px;
   border: 5px solid;
   box-shadow: 10px 10px 8px #888888;
-  padding-left: 20px;
-  font-size: 1rem;
+  padding-left: 8%;
+  font-size: 1.5rem;
 }
 button {
   width: 12%;
@@ -58,8 +58,8 @@ button:hover {
   border: 5px solid black;
 }
 .magic {
-  height: 40%;
-  margin-top: 5%;
+  height: 35%;
+  margin-top: 2rem;
 }
 img {
   display: flex;
@@ -72,5 +72,5 @@ img {
   text-align: center;
   font-size: 1.3rem;
   height: 20%;
-  margin-top: 5%;
+  margin-top: 2rem;
 }
